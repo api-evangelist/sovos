@@ -64,5 +64,117 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Sovos is a company surfaced via the API Evangelist harvest backlog (source: tag-qc) and added to the network as a stub for full-pipeline profiling.
-- https://sovos.com
+Sovos provides a global, cloud‑based platform for tax compliance, regulatory reporting, and e‑invoicing. It helps enterprises automate indirect tax calculations, filing, and information reporting across more than 200 jurisdictions. The platform integrates with ERP, finance, and e‑commerce systems, offering APIs for real‑time tax determination, filing, and compliance analytics. Sovos serves Fortune‑500 companies and midsize businesses, delivering solutions for sales tax, VAT, GST, customs duties, and specialized reporting such as 1099, crypto tax, and unclaimed property.
+
+**Areas:** Tax · Compliance · Cloud · Global
+
+## Sovos on APIs.io
+
+Everything profiled for Sovos is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sovos/](https://apis.io/providers/sovos/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [Sovos API](https://apis.io/apis/sovos/sovos-api-2/) — Sovos provides tax compliance, e‑invoicing, and filing APIs.
+- [Sovos Configurations API](https://apis.io/apis/sovos/sovos-configurations-api/) — The Configurations API from Sovos — 24 operation(s) for configurations.
+- [Sovos Documents API](https://apis.io/apis/sovos/sovos-documents-api/) — The Documents API from Sovos — 1 operation(s) for documents.
+- [Sovos Notifications API](https://apis.io/apis/sovos/sovos-notifications-api/) — The Notifications API from Sovos — 3 operation(s) for notifications.
+- [Sovos OAuth API](https://apis.io/apis/sovos/sovos-oauth-api/) — The Oauth API from Sovos — 2 operation(s) for oauth.
+- [Sovos Taxid Checks API](https://apis.io/apis/sovos/sovos-taxid-checks-api/) — The Taxid Checks API from Sovos — 1 operation(s) for taxid checks.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetDocumentsCountrycodeDocumentidNotificationsResponse](https://apis.io/schemas/sovos/sovos-get-documents-countrycode-documentid-notifications-response/)
+- [GetNotificationsCountrycodeNotificationidResponse](https://apis.io/schemas/sovos/sovos-get-notifications-countrycode-notificationid-response/)
+- [GetNotificationsCountrycodeResponse](https://apis.io/schemas/sovos/sovos-get-notifications-countrycode-response/)
+- [PostOauthClientCredentialAccesstokenResponse](https://apis.io/schemas/sovos/sovos-post-oauth-client-credential-accesstoken-response/)
+- [PostOauthTokenResponse](https://apis.io/schemas/sovos/sovos-post-oauth-token-response/)
+- [PutNotificationsCountrycodeResponse](https://apis.io/schemas/sovos/sovos-put-notifications-countrycode-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Sovos Context](https://apis.io/jsonld/sovos/sovos-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Sovos API Rules](https://apis.io/rules/sovos/sovos-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Sovos Domain Security](https://apis.io/security/sovos/sovos-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://sovos.com)
+- [Documentation](https://dev.sovos.com/)
+- [Sign up](https://sovos.com/blog/vat/registering-branches-for-insurance-premium-tax/)
+- [Changelog](https://docs.sovos.com/en/quick-links/release-notes)
+- [Blog](https://sovos.com/blog/trr/p171069/)
+- [Privacy policy](https://sovos.com/privacy-policy/)
+- [Status](https://status.sovos.com/)
+
+## API Evangelist rating
+
+**Kin Score 25.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 25.7 |
+| Contract governance | 22.0 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 23.7 |
+
+**Agent readiness 19.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | documented (partial credit) |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 14.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sovos/](https://apis.io/providers/sovos/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Sovos: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sovos/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
